@@ -11,7 +11,7 @@ public class MbDocketConfig extends CommonDocketConfig {
     public Docket mbDocket() {
         return commonDocket()
                 .group("会员模块")
-                .contact("潘清清/张世海", "https://github.com/pqqanqing", "15601870402@163.com")
+                .contact("清清", "https://github.com/pqqanqing", "xxx")
                 .paths("/mbs.*")
                 .build();
     }
